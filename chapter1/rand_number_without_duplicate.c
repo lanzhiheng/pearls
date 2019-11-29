@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#define MAX 10000000
+#define MAX 1000000000
 #define MAX_SIZE_OF_NAME 255
-#define NUM 10
+#define NUM 100
 
 void shuffle(int * array, int size) {
   for (int i = size - 1; i > 0; i --) {
